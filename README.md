@@ -1,7 +1,7 @@
-# oitc-helloween-theme
-Scary helloween theme for openITCOCKPIT 🎃👻
+# oitc-halloween-theme
+Scary halloween theme for openITCOCKPIT 🎃👻
 
-![openITCOCKPIT helloween login screen](screenshots/Login-Screen.png)
+![openITCOCKPIT halloween login screen](screenshots/Login-Screen.png)
 ![openITCOCKPIT theme](screenshots/openITCOCKPIT.png)
 
 ## Requirements
@@ -10,10 +10,10 @@ Scary helloween theme for openITCOCKPIT 🎃👻
 
 ## How to use
 
-1. Go to **Configuration** -> **Design** -> **Import Design** and drag and drop upload the file `openITCOCKPIT-helloween.json`.
+1. Go to **Configuration** -> **Design** -> **Import Design** and drag and drop upload the file `openITCOCKPIT-halloween.json`.
 Than press on `Save`
 
-2. Upoad `oitc-hallowenn.png` as Logo and `oitc-hallowenn-small.png` as small logo and press on `Save`.
+2. Upoad `oitc-halloween.png` as Logo and `oitc-halloween-small.png` as small logo and press on `Save`.
 
 3. copy the images from `login_bg` to `/usr/share/openitcockpit/app/webroot/img/login_bg`.
 
@@ -62,3 +62,5 @@ Than press on `Save`
 # Thanks to:
 - https://unsplash.com/photos/ASNSoeead70
 - https://unsplash.com/photos/QLtHhwOnuuI
+
+**We were so scared we event couldn't spell halloween anymore!👻**
