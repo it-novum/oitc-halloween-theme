@@ -11,7 +11,7 @@ Scary halloween theme for openITCOCKPIT 🎃👻
 ## How to use
 
 1. Go to **Configuration** -> **Design** -> **Import Design** and drag and drop upload the file `openITCOCKPIT-halloween.json`.
-Than press on `Save`
+Than reload the page!
 
 2. Upoad `oitc-halloween.png` as Logo and `oitc-halloween-small.png` as small logo and press on `Save`.
 
