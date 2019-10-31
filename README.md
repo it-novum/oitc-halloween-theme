@@ -26,14 +26,14 @@ Than press on `Save`
  }
 
  .login-screen > figure:nth-child(1) {
--    background-image:  url('/img/login_bg/grayson-savio-QLtHhwOnuuI-unsplash.jpg');
-+    background-image:  url('/img/login_bg/spacex-71870.jpg');
+-    background-image:  url('/img/login_bg/spacex-71870.jpg');
++    background-image:  url('/img/login_bg/grayson-savio-QLtHhwOnuuI-unsplash.jpg');
  }
 
  .login-screen > figure:nth-child(2) {
      animation-delay: 15s;
--    background-image:  url('/img/login_bg/neonbrand-ASNSoeead70-unsplash.jpg');
-+    background-image:  url('/img/login_bg/nasa-53884.jpg');
+-    background-image:  url('/img/login_bg/nasa-53884.jpg');
++    background-image:  url('/img/login_bg/neonbrand-ASNSoeead70-unsplash.jpg');
  }
 
  @keyframes imageAnimation {
@@ -47,12 +47,12 @@ Than press on `Save`
  <?php if ($isRemoteOrVnc === false): ?>
      <div class="login-screen">
          <figure>
--            <figcaption>Photo by Grayson Savio on Unsplash</figcaption>
-+            <figcaption>Photo by SpaceX on Unsplash</figcaption>
+-            <figcaption>Photo by SpaceX on Unsplash</figcaption>
++            <figcaption>Photo by Grayson Savio on Unsplash</figcaption>
          </figure>
          <figure>
--            <figcaption>Photo by NeONBRAND on Unsplash</figcaption>
-+            <figcaption>Photo by NASA on Unsplash</figcaption>
+-            <figcaption>Photo by NASA on Unsplash</figcaption>
++            <figcaption>Photo by NeONBRAND on Unsplash</figcaption>
          </figure>
      </div>
  <?php else: ?>
