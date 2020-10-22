@@ -1,66 +1,25 @@
 # oitc-halloween-theme
 Scary halloween theme for openITCOCKPIT 🎃👻
 
-![openITCOCKPIT halloween login screen](screenshots/Login-Screen.png)
-![openITCOCKPIT theme](screenshots/openITCOCKPIT.png)
+![openITCOCKPIT 4 halloween login screen](screenshots/openitcockpit-Halloween-login.jpg)
+![openITCOCKPIT 4 theme](screenshots/openITCOCKPIT.png)
 
 ## Requirements
-- openITCOCKPIT >= 3.7.1
+- openITCOCKPIT >= 4.0.0
 - DesignModule
+
+openITCOCKPIT 3.x user? [Grab the theme for openITCOCKPIT 3.x](https://github.com/it-novum/oitc-halloween-theme/tree/3.x)
 
 ## How to use
 
-1. Go to **Configuration** -> **Design** -> **Import Design** and drag and drop upload the file `openITCOCKPIT-halloween.json`.
-Than reload the page!
+1. Go to **System** -> **Design Editor** scroll down to the bottom and click on **Import**
+Upload the file `openITCOCKPIT-design-halloween.json` and wait for the page to reload.
 
-2. Upoad `oitc-halloween.png` as Logo and `oitc-halloween-small.png` as small logo and press on `Save`.
+2. Click on **Upload logo** and select `Interface and Login` and upload the file `openitcockpit_login_logo.png`. Wait for the page to reload.
 
-3. copy the images from `login_bg` to `/usr/share/openitcockpit/app/webroot/img/login_bg`.
+3. Click on **Upload logo** and select `Header logo` and upload the file `openitcockpit_halloween_header.png`. Wait for the page to reload.
 
-4. Patch the file `/usr/share/openitcockpit/app/webroot/css/login.css`
-
-```diff
---- /usr/share/openitcockpit/app/webroot/css/login.css	2019-10-31 10:10:41.783120611 +0100
-+++ /usr/share/openitcockpit/app/webroot/css/login.css.bak	2019-10-31 10:09:34.884875427 +0100
-@@ -116,12 +116,12 @@
- }
-
- .login-screen > figure:nth-child(1) {
--    background-image:  url('/img/login_bg/spacex-71870.jpg');
-+    background-image:  url('/img/login_bg/grayson-savio-QLtHhwOnuuI-unsplash.jpg');
- }
-
- .login-screen > figure:nth-child(2) {
-     animation-delay: 15s;
--    background-image:  url('/img/login_bg/nasa-53884.jpg');
-+    background-image:  url('/img/login_bg/neonbrand-ASNSoeead70-unsplash.jpg');
- }
-
- @keyframes imageAnimation {
-```
-
-5. Patch the file `/usr/share/openitcockpit/app/View/Login/login.ctp`
-```diff
---- /usr/share/openitcockpit/app/View/Login/login.ctp	2019-10-31 10:12:36.932035053 +0100
-+++ /usr/share/openitcockpit/app/View/Login/login.ctp.bak	2019-10-31 10:12:10.768743266 +0100
-@@ -16,10 +16,10 @@
- <?php if ($isRemoteOrVnc === false): ?>
-     <div class="login-screen">
-         <figure>
--            <figcaption>Photo by SpaceX on Unsplash</figcaption>
-+            <figcaption>Photo by Grayson Savio on Unsplash</figcaption>
-         </figure>
-         <figure>
--            <figcaption>Photo by NASA on Unsplash</figcaption>
-+            <figcaption>Photo by NeONBRAND on Unsplash</figcaption>
-         </figure>
-     </div>
- <?php else: ?>
-```
+4. Edit your user profile and upload `openitcockpit_emoji.png` as your profile image.
 
 
-# Thanks to:
-- https://unsplash.com/photos/ASNSoeead70
-- https://unsplash.com/photos/QLtHhwOnuuI
-
-**We were so scared we event couldn't spell halloween anymore!👻**
+Happ Halloween 🎃👻
