@@ -22,4 +22,4 @@ Upload the file `openITCOCKPIT-design-halloween.json` and wait for the page to r
 4. Edit your user profile and upload `openitcockpit_emoji.png` as your profile image.
 
 
-Happ Halloween 🎃👻
+Happy Halloween 🎃👻
